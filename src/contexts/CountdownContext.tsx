@@ -26,6 +26,7 @@ export function CountdownProvider({ children }: CountdawnProviderProps) {
     const [hasFinished, setHasFinished] = useState(false);
 
     const minutes = Math.floor(time / 60);
+    
     const seconds = time % 60;
     
 
